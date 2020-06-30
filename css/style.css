@@ -10,6 +10,7 @@
 * 	Template Style 
 *
 * ======================================================= */
+
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -18,6 +19,7 @@ body {
   color: #4d4d4d;
   background: #fff;
 }
+
 
 #page {
   position: relative;
@@ -47,13 +49,13 @@ body {
 }
 
 a {
-  color: #FF9000;
+  color: #0a0907;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
+  color: #050403;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +73,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #FF9000;
+  background: #0a0806;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #FF9000;
+  background: #000000;
 }
 
 ::selection {
   color: #fff;
-  background: #FF9000;
+  background: #000000;
 }
 
 #fh5co-header,
@@ -100,7 +102,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -222,7 +224,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #030302;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -257,7 +259,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #080602 !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -308,7 +310,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: #241d3d;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -1255,7 +1257,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FF9000;
+  border-color: #3f3368;
 }
 
 .row-pb-md {
